@@ -253,7 +253,7 @@
     },
     {
       "id": "goatapi",
-      "name": "GoatAPI",
+      "name": "🐐 GoatAPI",
       "description": "Movies via GoatAPI, indexed by TMDB",
       "version": "1.0.0",
       "author": "Aeyshx",
@@ -263,19 +263,6 @@
       "formats": ["mp4", "mkv", "m3u8"],
       "logo": "https://i.postimg.cc/d1vkPZpY/goatapi.png",
       "contentLanguage": ["en"]
-    },
-    {
-      "id": "netmirrornew",
-      "name": "NetMirrorNew",
-      "description": "1080p multilingual streams",
-      "version": "1.0.0",
-      "author": "Dustincos",
-      "supportedTypes": ["movie", "tv"],
-      "filename": "providers/netmirrornew.js",
-      "enabled": true,
-      "formats": ["mp4", "m3u8", "mkv"],
-      "logo": "https://i.postimg.cc/L64M3bYV/netmirror.png",
-      "contentLanguage": ["en", "hi", "ta", "te"]
     },
     {
       "id": "hdhub4u",
@@ -461,17 +448,17 @@
       "contentLanguage": ["fr", "en"]
     },
     {
-      "id": "netmirror",
-      "name": "Netmirror",
-      "description": "Streaming links from Netmirror (Netflix, Prime, Disney etc).",
+      "id": "netmirrornew",
+      "name": "NetMirrorNew",
+      "description": "1080p multilingual streams",
       "version": "1.0.0",
-      "author": "Sanchit (@S4NCHITT) — Murph's Streams",
+      "author": "Dustincos",
       "supportedTypes": ["movie", "tv"],
-      "filename": "providers/netmirror.js",
+      "filename": "providers/netmirrornew.js",
       "enabled": true,
-      "formats": ["mp4", "m3u8"],
+      "formats": ["mp4", "m3u8", "mkv"],
       "logo": "https://i.postimg.cc/L64M3bYV/netmirror.png",
-      "contentLanguage": ["en"]
+      "contentLanguage": ["en", "hi", "ta", "te"]
     },
     {
       "id": "notorrent",
